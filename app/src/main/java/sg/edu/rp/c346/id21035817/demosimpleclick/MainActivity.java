@@ -36,8 +36,10 @@ public class MainActivity extends AppCompatActivity {
                 int selectedId = rgGender.getCheckedRadioButtonId();
 
                 if (selectedId == R.id.rbMale) {
+                    // Write the code when male selected
                     tvDisplay.setText("Hi Mr, \n" + value);
                 } else {
+                    // Write the code when female selected
                     tvDisplay.setText("Hi Ms, \n" + value);
                 }
             }
